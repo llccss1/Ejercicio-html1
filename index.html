@@ -7,16 +7,40 @@
             <tr>
                 <td>
                     Nombre
+                    <input name="nombre">
                 </td>
                 <td>
                     Apellido
+                    <input name="apellido">
                 </td>
             </tr>
             <tr>
-                <td>
+                <td colspan="2" align="center">
                     Comentario
+                    <textarea name="comentario"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    email
+                    <input name="email">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right">
+                    <button name="boton">Boton de enviar</button>
                 </td>
             </tr>
         </table>
     </body>
 </html>    
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        border: 1px solid black;
+    }
+</style>
