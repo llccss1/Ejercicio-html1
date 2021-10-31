@@ -1,0 +1,74 @@
+* {
+    max-width: 100%;
+    max-height: 100%;
+}  
+
+h1 {
+    font-style: normal;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+#all {
+    display: flex;
+    align-items: stretch;
+}
+
+#banner {
+    width: 10%;    
+    border: 1px solid black;
+    height: 100vh; 
+    margin: 10px;    
+}
+
+#contenido {
+    width: 90%;    
+    border: 1px solid black;
+    height: 100vh;   
+    margin: 10px;    
+}
+
+.banner-class {
+    background-color: green;
+    float: right;    
+    text-align:center;
+}
+
+.cuadro {
+    background-color: indianred;
+    border: 1px solid black;
+    margin: 10px;    
+}
+
+.cuadro-gris {
+    background-color: grey;    
+}
+
+.cuadro50 {
+    width: 50%;
+}
+
+.cuadro-flotante {
+    float: right;  
+    text-align: center;      
+}
+
+#datos-contacto-cv {
+    height: 29vh; 
+
+}
+
+
+
+/*Estilo de tabla de contacto*/
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+#tabla-contacto {
+    width: 98%;
+}
