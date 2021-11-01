@@ -12,6 +12,7 @@ h1 {
 #all {
     display: flex;
     align-items: stretch;
+    background-color:beige;
 }
 
 #banner {
@@ -35,7 +36,7 @@ h1 {
 }
 
 .cuadro {
-    background-color: indianred;
+    background-color: lightgray;
     border: 1px solid black;
     margin: 10px;    
 }
@@ -50,14 +51,13 @@ h1 {
 
 .cuadro-flotante {
     float: right;  
-    text-align: center;      
+    text-align: center;  
 }
 
 #datos-contacto-cv {
     height: 29vh; 
-
+    background: lightsalmon;
 }
-
 
 
 /*Estilo de tabla de contacto*/
@@ -71,4 +71,5 @@ td {
 
 #tabla-contacto {
     width: 98%;
+    background: grey;
 }
